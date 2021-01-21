@@ -335,14 +335,14 @@ h2 {
 h5,
 h6 {
   width: 80%;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-transform: lowercase;
   text-align: justify;
   line-height: 1.45;
   word-spacing: 0.1rem;
-  color: #111;
+  color: #000;
   margin: 0 auto;
   margin-top: 1rem;
 }
@@ -418,7 +418,7 @@ h6 {
   text-transform: lowercase;
   text-align: justify;
   line-height: 1.5;
-  color: #111;
+  color: #000;
 }
 .how__we__work {
   height: 30rem;
