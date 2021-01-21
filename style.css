@@ -11,6 +11,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  width: 100vw;
   background-color: #f1f1f1;
   overflow-x: hidden;
 }
@@ -21,10 +22,11 @@ a {
 li {
   list-style-type: none;
 }
+
 h5,
 h6 {
   color: #111;
-  font-weight: bolder;
+  font-weight: bold;
 }
 /* header styling  */
 header {
@@ -42,7 +44,7 @@ header {
 }
 nav {
   position: fixed;
-  right: 0;
+  left: 0;
   top: 0;
   height: 5rem;
   width: 100%;
@@ -244,6 +246,7 @@ li:hover {
   height: 200rem;
   width: 100vw;
   background-color: #fff;
+  overflow-x: hidden;
 }
 .container {
   height: 90%;
@@ -326,10 +329,13 @@ h2 {
   align-items: center;
   justify-content: space-around;
 }
+.inner_container span h2 {
+  margin: 0 auto;
+}
 h5,
 h6 {
   width: 80%;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-transform: lowercase;
@@ -385,7 +391,7 @@ h1 > small {
   object-fit: cover;
 }
 .about_us {
-  height: 15rem;
+  height: 17rem;
   max-width: 50rem;
   margin: 0 auto;
   margin-top: 3rem;
@@ -536,11 +542,11 @@ p {
   justify-content: space-around;
   margin: 0.5rem 0;
 }
-span img {
+.contact span img {
   height: 4rem;
   width: 5rem;
 }
-span a {
+.contact span a {
   display: inline-block;
   font-size: 2rem;
 }
@@ -617,7 +623,7 @@ footer {
     font-size: 1.5rem;
   }
   #service {
-    height: 330rem !important;
+    height: 350rem !important;
     background-color: #fff;
   }
   .container {
@@ -626,7 +632,7 @@ footer {
   .services {
     flex-direction: column !important;
     height: 50rem !important;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
   .services > div {
     width: 30rem;
@@ -634,12 +640,16 @@ footer {
   .inner_container {
     height: 100%;
   }
+  .inner_container span h2 {
+    font-size: 2.3rem;
+  }
+
   h5,
   h6 {
     text-align: justify;
   }
   .about_us {
-    height: 17rem !important;
+    height: 25rem !important;
   }
   .about_us h2 {
     font-size: 3rem;
@@ -650,7 +660,6 @@ footer {
     font-size: 1.2rem !important;
     text-align: left !important;
     margin: 0 1rem;
-    margin-bottom: 1rem;
   }
   .how__we__work {
     width: 100% !important;
@@ -662,14 +671,14 @@ footer {
     font-size: 4rem;
   }
   .work__details p {
+    width: 90%;
     font-size: 1.5rem;
     line-height: 1.4;
     text-align: justify;
   }
   #contact {
-    /* height: 5000rem; */
-    height: 50rem;
-    margin-top: 32rem;
+    height: 70rem;
+    margin-top: 40rem;
   }
   .article {
     flex-direction: column;
@@ -683,6 +692,9 @@ footer {
 @media only screen and (max-width: 380px) {
   .text_container {
     width: 100% !important;
+  }
+  .about_us {
+    height: 30rem !important;
   }
 }
 @media only screen and (max-width: 900px) {
