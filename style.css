@@ -461,12 +461,12 @@ h6 {
   font-size: 4rem;
   font-family: "Roboto", sans-serif;
   text-transform: capitalize;
-  color: #fff;
+  color: #333;
+  z-index: 20 !important;
 }
 .text .reliable {
   color: #fff !important;
   font-size: 4.5rem;
-  z-index: 100 !important;
 }
 .work__details {
   justify-content: center;
