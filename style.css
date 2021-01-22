@@ -317,7 +317,7 @@ h2 {
   font-weight: 600;
   font-family: "Imbue", sans-serif;
   text-transform: capitalize;
-  text-align: center;
+  text-align: right;
   color: #000;
   margin-right: 2rem;
 }
@@ -335,13 +335,12 @@ h2 {
 h5,
 h6 {
   width: 80%;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-transform: lowercase;
   text-align: justify;
   line-height: 1.45;
-  word-spacing: 0.1rem;
   color: #000;
   margin: 0 auto;
   margin-top: 1rem;
@@ -467,7 +466,7 @@ h6 {
 .reliable {
   color: #fff !important;
   font-size: 4.5rem;
-  z-index: 200;
+  z-index: 100;
 }
 .work__details {
   justify-content: center;
